@@ -158,7 +158,7 @@ body{
         margin-right: 10px;
         padding-right: 19px;
         line-height: 170%;
-        font-weight: 900;  /*que tan negrita es la letra*/
+      
     }
     .mini-title{
         font-family: 'Inter', sans-serif;
@@ -177,33 +177,15 @@ body{
         display: block;
     }
 
-    .proyectos{
-        width: 20%;
-        height: 350px;
-        border-radius: 2%;
-        background-color: rgb(123, 123, 243);
-        margin: 15px 50px;
-
-    }
-    
     .imagen-proyecto{
-        width: 90%;
-        height: 45%;
-        justify-content: center;
-        margin: 13px;
         padding-left: 13px;
         text-align: center;
     }
     
     .letra-experience{
-        width: 90%;
-        height: 30%;
-        justify-content: center;
         margin-left: 30px 24px;
         padding-left: 10px;
-        line-height: 150%;
-        font-weight: 400;  /*que tan negrita es la letra*/
-        font-size: 16px;  /*Tamano de la letra*/
+ 
     }
 
 
