@@ -8,8 +8,6 @@
     <title>Portafolio Abril</title>
 </head>
 <body>
-
-
     <section class="navbar">
 
         <div> 
@@ -23,21 +21,27 @@
         </div>
     </section>
 
-    <section class="hero-frame">
-        <div class="slider">
+    
+        <div class="slider-contenedor" id="contenedor">
             <div class="section-slider">
-                <img src="logotipo.jpg" alt="" class="pasar-imagen">
+                <img src="https://i.pinimg.com/736x/70/6b/96/706b96318e0793dd84cdd09c2f54aceb--torre-cn-toronto-canada.jpg" alt="" class="imagen">
             </div>
             <div class="section-slider">
-                <img src="programador.jpg" alt="" class="pasar-imagen">
+                <img src="https://www.epitech-it.es/wp-content/uploads/2021/01/cuantos-lenguajes-de-programacion-existen.jpg" alt="" class="imagen">
             </div>
             <div class="section-slider">
-                <img src="unimet.jpg" alt="" class="pasar-imagen">
+                <img src="https://www.itconsultors.com/images/inteligencia-artificial.jpg" alt="" class="imagen">
             </div>
-            <div class="pasar-boton izquierdo" id="boton-izquierdo">></div>
-            <div class="pasar-boton derecho" id="boton-derecho">></div>
+            <div class="section-slider">
+                <img src="https://blogs.atrapalo.pe/atrapalodecerca/files/2014/03/atardecer.png" alt="" class="imagen">
+            </div>
+            <a href="#"class="pasar-boton derecha" id="boton-derecho" onclick="avanzar(1)">></a>
+            <a href="#" class="pasar-boton izquierda" id="boton-izquierdo" onclick="avanzar(-1)"><</a>
+            <!-- <div class="pasar-boton derecha" id="boton-derecho" onclick="avanzar(1)">></div>
+            <div class="pasar-boton izquierda" id="boton-izquierdo" onclick="avanzar(-1)"><</div> -->
         </div>
-    </section>
+    
+
     <h1 class="sub-title">Experience</h1>
     <section class="Experience">
         <div class="proyectos">
@@ -107,5 +111,7 @@
             <input type="submit" name="enviar" value="Enviar Mensaje" class="boton-enviar">
         </form>
     </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
