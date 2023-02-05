@@ -112,7 +112,7 @@ body{
 .about-me{
     margin: 0px 12px 20px 13px;
     width: 97%;
-    height: 250px;
+    height: 275px;
     display: flex;
     
     background-color: rgba(183, 196, 102, 0.566);
@@ -133,7 +133,7 @@ body{
 
 .parrafo-about-me{
     justify-content: center;
-    margin: 30px 20px;
+    margin: 20px 20px;
     width: 130%;
     height: 90%;
     font-family: 'Inter', sans-serif;
@@ -144,6 +144,70 @@ body{
 
 }
 
+.contac-me{
+    margin: 10px 12px;
+    width: 97%;
+    height: 270px;
+    display: flex;
+    background-color: rgba(95, 234, 95, 0.566);
+    border-radius: 10px;
+}
+.info-contacto{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.comentario-final{
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;  /*que tan negrita es la letra*/
+    font-size: 16px;  /*Tamano de la letra*/
+    line-height: 140%;
+    text-align: justify;
+}
+.arreglo{
+    display: flex;
+}
+.data{
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;  /*que tan negrita es la letra*/
+    font-size: 16px;  /*Tamano de la letra*/
+    line-height: 140%;  
+}
+
+.form{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 250px;
+}
+.campo{
+    display: block;
+    width: 150%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    color: blueviolet;
+    border-color: transparent;
+}
+.campo::placeholder{
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;  
+}
+
+.boton-enviar{
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    border-color: transparent;
+    background-color: rgb(161, 208, 208);
+}
 
 /*phone*/
 @media (max-width: 820px) {
@@ -210,5 +274,42 @@ body{
         margin: 10px 20px ;
         width: 90%;
         font-size: 12px;  /*Tamano de la letra*/
+    }
+
+    .contac-me{
+        margin: 10px 12px;
+        width: 95%;
+        height: 500px;
+        display: block;
+    }
+    .info-contacto{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .comentario-final{
+        margin: 10px;
+        padding-top: 20px;
+        width: 379px;
+    }
+    .form{
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+        width: 250px;
+    }
+    .campo{
+        display: block;
+        width: 150%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color: blueviolet;
+        border-color: transparent;
+    }
+
+    .boton-enviar{
+        margin-left: 140px;
     }
 }
