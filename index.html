@@ -29,22 +29,22 @@
 
     <h1 class="sub-title" id="Hero">Hero</h1>
         <div class="slider-contenedor" id="contenedor">
-            <div class="section-slider">
+            <div class="section-slider fade">
                 <img src="https://i.pinimg.com/736x/70/6b/96/706b96318e0793dd84cdd09c2f54aceb--torre-cn-toronto-canada.jpg" alt="" class="imagen">
             </div>
-            <div class="section-slider">
+            <div class="section-slider fade">
                 <img src="https://www.epitech-it.es/wp-content/uploads/2021/01/cuantos-lenguajes-de-programacion-existen.jpg" alt="" class="imagen">
             </div>
-            <div class="section-slider">
+            <div class="section-slider fade">
                 <img src="https://www.itconsultors.com/images/inteligencia-artificial.jpg" alt="" class="imagen">
             </div>
-            <div class="section-slider">
+            <div class="section-slider fade">
                 <img src="https://blogs.atrapalo.pe/atrapalodecerca/files/2014/03/atardecer.png" alt="" class="imagen">
             </div>
-            <a href="#"class="pasar-boton derecha" id="boton-derecho" onclick="avanzar(1)">></a>
-            <a href="#" class="pasar-boton izquierda" id="boton-izquierdo" onclick="avanzar(-1)"><</a>
+            <a onclick="return avanzar(1)" href="javascript:void();" class="pasar-boton derecha" id="boton-derecho" >></a>
+            <a onclick="return avanzar(-1)" href="javascript:void();" class="pasar-boton izquierda" id="boton-izquierdo" ><</a>
             <!-- <div class="pasar-boton derecha" id="boton-derecho" onclick="avanzar(1)">></div>
-            <div class="pasar-boton izquierda" id="boton-izquierdo" onclick="avanzar(-1)"><</div> -->
+            <div class="pasar-boton izquierda" id="boton-izquierdo" onclick="avanzar(-1)"><</div> --> -->
         </div>
     
 
@@ -110,14 +110,14 @@
                 <a href="" class="data">04242830961</a>
             </div>
         </div>
-        <form action="#" autocomplete="off" class="form">
-            <input type="text" name="name" placeholder="Ingrese su nombre: " class="campo">
-            <input type="email" name="correo" placeholder="Ingrese su correo: " class="campo">
-            <textarea type="text" name="mensaje" placeholder="Ingrese un mensaje: " class="campo"></textarea>
-            <input type="submit" name="enviar" value="Enviar Mensaje" class="boton-enviar">
+        <form action="" class="form" id="form" onsubmit="return rellenado()">
+            <input type="text" id="name" placeholder="Ingrese su nombre: " class="campo">
+            <input type="email" id="correo" placeholder="Ingrese su correo: " class="campo">
+            <textarea type="text" id="mensaje" placeholder="Ingrese un mensaje: " class="campo"></textarea>
+            <input type="submit" id="enviar" value="Enviar Mensaje" class="boton-enviar"></input>
         </form>
     </section>
 
-    <script src="index.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>
