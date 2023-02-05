@@ -221,7 +221,7 @@ body{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 0 10px rgb(96, 102, 211), 0 15px 70px;
-    margin: 50px 20px;
+    margin: 20px 20px;
 
 }
 
@@ -229,7 +229,6 @@ body{
 /*phone*/
 @media (max-width: 820px) {
     .navbar{
-        background: white;
         width: 90%;
         height: 85px;
         margin: 20px 13px 20px 12px;
@@ -245,7 +244,7 @@ body{
         font-family: 'Inter', sans-serif;
         font-weight: 600;  /*que tan negrita es la letra*/
         font-size: 16px;  /*Tamano de la letra*/
-        margin: 10px; 
+        margin: 7px; 
         line-height: 200%;
     }
    
