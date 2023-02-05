@@ -9,14 +9,14 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    background-color:   #d195f4;
+    background-color:   #ffffff;
     
 }
 
 .navbar{    
     width: 98%;
     height: 50px;
-    background-color:  white;
+    background-color:  rgb(144, 142, 142);
     margin: 20px 15px 20px 15px;
     border-radius: 50px;
     padding: 12px;
@@ -34,7 +34,7 @@ body{
     font-weight: 600;  /*que tan negrita es la letra*/
     font-size: 16px;  /*Tamano de la letra*/
     display: inline;
-    margin: 65px 45px; 
+    margin: 65px 43px; 
     padding: 40px 0px;
 
 }
