@@ -70,15 +70,15 @@ body{
 
 
 .Experience{
-    margin: 0px 12px 20px 13px;
+    margin: 0px 12px 10px 13px;
     width: 97%;
     height: 400px;
     display: flex;
 }
-.experience-title{
+.sub-title{
     text-align: center;
     padding: 10px;
-    margin: 50px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     line-height: 150%
 
 }
@@ -108,6 +108,43 @@ body{
     font-size: 16px;  /*Tamano de la letra*/
 }
 
+
+.about-me{
+    margin: 0px 12px 20px 13px;
+    width: 97%;
+    height: 250px;
+    display: flex;
+    
+    background-color: rgba(183, 196, 102, 0.566);
+    border-radius: 10px;
+}
+
+.prefoto{
+    width: 400px;
+    height: 250px;
+}
+
+.myphoto{
+    width: 200px;
+    height: 90%;
+    justify-content: center;
+    margin: 13px;
+}
+
+.parrafo-about-me{
+    justify-content: center;
+    margin: 30px 20px;
+    width: 130%;
+    height: 90%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;  /*que tan negrita es la letra*/
+    font-size: 16px;  /*Tamano de la letra*/
+    line-height: 140%;
+    text-align: justify;
+
+}
+
+
 /*phone*/
 @media (max-width: 820px) {
     .navbar{
@@ -134,18 +171,12 @@ body{
 
 
     .Experience{
-        margin: 0px 12px 20px 13px;
+        margin: 0px 12px 0px 13px;
         width: 400%;
-        height: 40px;
+        height: 1100px;
         display: block;
     }
-    .experience-title{
-        text-align: center;
-        padding: 10px;
-        margin: 50px 0px 0px 0px;
-        line-height: 150%
-    
-    }
+
     .proyectos{
         width: 20%;
         height: 350px;
@@ -173,5 +204,29 @@ body{
         line-height: 150%;
         font-weight: 400;  /*que tan negrita es la letra*/
         font-size: 16px;  /*Tamano de la letra*/
+    }
+
+
+    .about-me{
+        width: 95%;
+        height: 420px;
+        display: block;
+    }
+    
+    .prefoto{
+        width: 200px;
+        height: 170px;
+       padding-left: 50px;
+    }
+    
+    .myphoto{
+        padding-left: 50px;
+        margin-left: 30px;
+    }
+    
+    .parrafo-about-me{
+        margin: 10px 20px ;
+        width: 90%;
+        font-size: 12px;  /*Tamano de la letra*/
     }
 }
