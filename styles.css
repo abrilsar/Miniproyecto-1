@@ -66,6 +66,48 @@ body{
     height: 100%;
 }
 
+
+
+
+.Experience{
+    margin: 0px 12px 20px 13px;
+    width: 97%;
+    height: 400px;
+    display: flex;
+}
+.experience-title{
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0px 0px 0px;
+    line-height: 150%
+
+}
+.proyectos{
+    width: 20%;
+    height: 350px;
+    border-radius: 2%;
+    background-color: rgb(123, 123, 243);
+    margin: 15px 50px;
+    flex: 50%;
+}
+
+.imagen-proyecto{
+    width: 90%;
+    height: 45%;
+    justify-content: center;
+    margin: 13px;
+}
+
+.letra-experience{
+    width: 90%;
+    height: 30%;
+    justify-content: center;
+    margin-left: 24px;
+    line-height: 150%;
+    font-weight: 400;  /*que tan negrita es la letra*/
+    font-size: 16px;  /*Tamano de la letra*/
+}
+
 /*phone*/
 @media (max-width: 820px) {
     .navbar{
@@ -89,4 +131,47 @@ body{
         line-height: 200%;
     }
    
+
+
+    .Experience{
+        margin: 0px 12px 20px 13px;
+        width: 400%;
+        height: 40px;
+        display: block;
+    }
+    .experience-title{
+        text-align: center;
+        padding: 10px;
+        margin: 50px 0px 0px 0px;
+        line-height: 150%
+    
+    }
+    .proyectos{
+        width: 20%;
+        height: 350px;
+        border-radius: 2%;
+        background-color: rgb(123, 123, 243);
+        margin: 15px 50px;
+
+    }
+    
+    .imagen-proyecto{
+        width: 90%;
+        height: 45%;
+        justify-content: center;
+        margin: 13px;
+        padding-left: 13px;
+        text-align: center;
+    }
+    
+    .letra-experience{
+        width: 90%;
+        height: 30%;
+        justify-content: center;
+        margin-left: 30px 24px;
+        padding-left: 10px;
+        line-height: 150%;
+        font-weight: 400;  /*que tan negrita es la letra*/
+        font-size: 16px;  /*Tamano de la letra*/
+    }
 }
